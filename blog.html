@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Blog - Razor Concept</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <link rel="icon" href="images/WhiteLogoTransparent.png" type="image/png">
 </head>
 <body>
     <header>
@@ -13,6 +14,7 @@
             <a href="index.html">
                 <img src="images/WhiteLogoTransparent.png" alt="Razor Concept Logo" class="responsive-logo">
             </a>
+        </div>
         <div class="header-text-container">
             <div class="header-text">
                 <span class="keep-it">Keep it</span> <span class="highlight">SIMPLE.</span>
@@ -25,7 +27,7 @@
                 <span></span>
             </button>
             <ul id="nav-links" class="nav-links">
-                <li><a href="index.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="store.html">Store</a></li>
                 <li><a href="contact.html">Consulting</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -35,21 +37,10 @@
     <main>
         <section class="hero">
             <h1>Welcome to Our Blog</h1>
-            <p>Stay updated with the latest posts...</p>
         </section>
-        <section id="blog">
+        <section id="blog-posts">
             <h2>Latest Posts</h2>
-            <div class="posts">
-                <div class="post">
-                    <h3>Post Title 1</h3>
-                    <p>Post snippet... <a href="post1.html">Read more</a></p>
-                </div>
-                <div class="post">
-                    <h3>Post Title 2</h3>
-                    <p>Post snippet... <a href="post2.html">Read more</a></p>
-                </div>
-                <!-- Add more posts as needed -->
-            </div>
+            <!-- Blog posts will go here -->
         </section>
     </main>
     <footer>
@@ -61,7 +52,7 @@
             <a href="#" class="fab fa-tiktok"></a>
         </div>
         <form class="newsletter" id="newsletterForm">
-            <h2>Subscribe to our Newsletter</h2>
+            <h2>Subscribe for Updates</h2>
             <input type="email" name="newsletter-email" placeholder="Your Email" required>
             <button type="submit">Subscribe</button>
         </form>
